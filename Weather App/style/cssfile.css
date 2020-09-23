@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background-color: rgb(34, 193, 195);
+    background-color: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background-color: #757F9A;
+    /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #EAA2D4;
+    background-color: -webkit-radial-gradient(bottom left, #EAA2D4, #3A68A5);
+    background-color: -moz-radial-gradient(bottom left, #EAA2D4, #3A68A5);
+    background-color: radial-gradient(to top right, #EAA2D4, #3A68A5);
+}
+
+#main {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+header {
+    position: fixed;
+    width: 70%;
+    background: #1E202C no-repeat;
+}
+
+#heading {
+    float: left;
+    text-align: center;
+    animation: myMove 2s linear 0s 1 normal;
+}
+
+#backimg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    padding-top: 200px;
+}
+
+#search1 {
+    margin: 0 auto;
+    left: 15%;
+    width: 70%;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #1E202C;
+    border-radius: 25px;
+    background: #1E202C;
+}
+
+#search2 {
+    color: white;
+    width: 75%;
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: groove;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+    text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+}
+
+#search {
+    box-shadow: 0px 10px 14px -7px #3dc21b;
+    background-color: #44c767;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin: 20px 20px 5px 5px;
+}
+
+#search:hover {
+    background-color: #5cbf2a;
+}
+
+#search:active {
+    position: relative;
+    top: 1px;
+}
+
+#table1 {
+    background: #2442eb;
+    margin: 100px 0px 0px 0px;
+    border: 0px solid #1E202C;
+}
+
+col:nth-child(odd) {
+    background: #c72121;
+    border: 0px solid #39cc5d;
+    color: lime;
+}
+
+col:nth-child(even) {
+    background: rgb(12, 41, 211);
+    border: 0px solid #1E202C;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding-bottom: 2px;
+    margin: 2px 0px 2px 2px;
+}
+
+#temp {
+    width: 20%;
+    font-size: 38px;
+}
+
+#temp1 {
+    font-size: 18px;
+}
+
+#temp11 {
+    width: 20%;
+    font-size: 18px;
+}
+
+#img_cloud {
+    width: 40%;
+    float: right;
+    margin: 2px 2px 0px 2px;
+}
+
+#img_cloud1 {
+    width: 40%;
+}
+
+a {
+    color: #674;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #896;
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+container:hover {
+    color: #896;
+    text-decoration: underline;
+}
+
+.contain {
+    width: 80%;
+    margin: 15px auto;
+}
+
+html {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 1000px;
+    background-color: hsla(200, 40%, 30%, .4);
+    background-image: url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+    background-size: 2500px, 800px, 500px 200px, 1000px, 400px 260px;
+    animation: 50s para infinite linear;
+}
+
+@keyframes para {
+    100% {
+        background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
+    }
+}

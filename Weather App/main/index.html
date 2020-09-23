@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Weather Report</title>
+	<link rel="stylesheet" href="/style/cssfile.css" />
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+</head>
+
+<body>
+	<main id="main">
+
+		<header width="100%">
+
+			<h1 id="Heading" style="font-family:verdana" text-align="center"> Weather Forecast</h1>
+			<a href="chart.html">Search for Chart</a>
+		</header>
+		
+		<div id="backimg">
+			<div id="search1">
+				<input type="text" placeholder="Enter the city" id="search2">
+				
+				<button id="search" onclick="loadDoc()">Search</button>
+				<table width="100%"  id="table1">
+
+					<tr id="thead1">
+						<td width="30%" id="main_tree1">
+							<div class="card">
+								<div class="container">
+									<p id="city">CITY</p>
+
+									<h1 id="temp"><b>&degC</b></h1>
+									<span id="pressure">p</span>
+									<span id="humidity">h</span>
+									<span id="cloud">c</span>
+
+
+								</div>
+							</div>
+				</table>
+			</div>
+		</div>
+
+	</main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <!-- <script src="main.js"></script> -->
+
+</html>
